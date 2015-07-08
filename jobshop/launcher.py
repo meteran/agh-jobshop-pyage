@@ -2,8 +2,8 @@ from pyage.core.stop_condition import get_all_jobs_scheduled_stop_condition, All
 from flowshop_genetics import PermutationInitializer, FirstHalfSwapsCrossover, PermutationMutation
 from flowshop_genetics import FlowShopEvaluation
 from manufacture import Manufacture
-from pyage.jobshop.problem import TimeMatrixConverter
-from pyage.jobshop.problemGenerator import ProblemProvider, DistortedProblemGenerator, Counter
+from problem import TimeMatrixConverter
+from problemGenerator import ProblemProvider, DistortedProblemGenerator, Counter
 from timeKeeper import TimeKeeper
 from statistics import GanttStatistics
 from agents import masters_factory
