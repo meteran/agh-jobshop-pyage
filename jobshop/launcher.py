@@ -1,4 +1,4 @@
-from pyage.core.stop_condition import get_all_jobs_scheduled_stop_condition, AllJobsScheduledStopCondition
+from pyage.core.stop_condition import AllJobsScheduledStopCondition
 from flowshop_genetics import PermutationInitializer, FirstHalfSwapsCrossover, PermutationMutation
 from flowshop_genetics import FlowShopEvaluation
 from manufacture import Manufacture

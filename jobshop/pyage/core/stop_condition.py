@@ -28,12 +28,6 @@ class AllJobsScheduledStopCondition(StopCondition):
         self.__all_jobs_scheduled = value
 
 
-all_jobs_scheduled_stop_condition = AllJobsScheduledStopCondition()
-
-def get_all_jobs_scheduled_stop_condition():
-    return all_jobs_scheduled_stop_condition
-
-
 class MinimumFitnessStopCondition(StopCondition):
     def __init__(self, minimal_fitness):
         super(MinimumFitnessStopCondition, self).__init__()
