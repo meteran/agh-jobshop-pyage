@@ -1,9 +1,9 @@
-repeats = 10
+repeats = 1
 
 window_time = 250
-numbers_of_aggregates = [1, 2, 4, 6, 8, 10, 15, 20, 50]
+numbers_of_aggregates = [1, 2, 4, 10, 20, 50]
 aggregate_sizes = 10
-distortion_factors = [0.1, 0.3, 0.5]
+distortion_factors = [0.1]
 number_of_deliveries = 3
 
 matrices = [
